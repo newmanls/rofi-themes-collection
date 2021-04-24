@@ -1,0 +1,88 @@
+/*******************************************************************************
+ * ROUNDED THEME FOR ROFI 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+* {
+    text-color          : @fg-color;
+    font                : "Roboto 16";
+}
+#window {
+    location            : center;
+    y-offset            : -200;
+    width               : 640;
+    border-radius       : 24;
+    background-color    : @bg-color;
+}
+#mainbox {
+    spacing             : 0;
+    background-color    : transparent;
+    padding             : 16;
+}
+#inputbar {
+    background-color    : @inputbar-bg-color;
+    border              : 2;
+    border-radius       : 16;
+    border-color        : @accent-bg-color;
+    padding             : 8 16;
+    spacing             : 8;
+}
+#prompt {
+    text-color          : @tooltip-fg-color;
+    background-color    : inherit;
+}
+#entry {
+    background-color    : inherit;
+    placeholder         : "Search";
+    placeholder-color   : @insensitive-fg-color;
+}
+#case-indicator {
+    background-color    : inherit;
+}
+#message {
+    padding             : 0;
+    margin              : 16 0 0;
+    border-radius       : 16;
+    border-color        : @insensitive-bg-color;
+    background-color    : @insensitive-bg-color;
+}
+#textbox {
+    padding             : 8 24;
+    background-color    : inherit;
+}
+#listview {
+    lines               : 8;
+    columns             : 1;
+    fixed-height        : false;
+    spacing             : 0;
+    scrollbar           : false;
+    background-color    : transparent;
+    margin              : 16 0 0;
+}
+#element {
+    padding             : 8 16;
+    background-color    : transparent;
+    border-radius       : 16;
+}
+#element normal normal {
+}
+#element normal urgent {
+}
+#element normal active {
+    text-color          : @accent-bg-color;
+}
+#element selected normal {
+    background-color    : @accent-bg-color;
+    text-color          : @accent-fg-color;
+}
+#element selected urgent {
+}
+#element selected active {
+    background-color    : @accent-bg-color;
+    text-color          : @accent-fg-color;
+}
+#element-icon {
+    size                : 1em;
+    margin              : 0 8 0 0;
+}

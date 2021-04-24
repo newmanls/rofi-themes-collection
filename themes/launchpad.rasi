@@ -1,0 +1,96 @@
+/*******************************************************************************
+ * MACOS LAUNCHPAD LIKE THEME FOR ROFI 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+configuration {
+    font            : "Montserrat 10";
+}
+* {
+    bg-color: #242424BF;
+    fg-color: #f5f5f5;
+    tooltip-fg-color: #363636;
+    selected-bg-color: #0860f2E6;
+    selected-fg-color: #ffffff;
+    insensitive-bg-color: #f5f5f520;
+    insensitive-fg-color: #f5f5f5;
+
+    text-color          : @fg-color;
+}
+#window {
+    background-color    : @bg-color;
+    fullscreen          : true;
+    padding             : 32 136;
+}
+#mainbox {
+    background-color    : transparent;
+}
+#inputbar {
+    background-color    : @insensitive-bg-color;
+    border              : 2;
+    border-radius       : 4;
+    border-color        : @insensitive-bg-color;
+    padding             : 4 8;
+    margin              : 0 30%;
+    font                : "Montserrat 12";
+}
+#prompt {
+    enabled             : false;
+}
+#entry {
+    font                : inherit;
+    background-color    : transparent;
+    placeholder         : "Search";
+    placeholder-color   : @insensitive-fg-color;
+}
+#case-indicator {
+    font                : inherit;
+    background-color    : transparent;
+}
+#message {
+    padding             : 0;
+    border              : 2 0 0;
+    border-color        : @insensitive-bg-color;
+    background-color    : @insensitive-bg-color;
+}
+#textbox {
+    padding             : 8 24;
+    background-color    : inherit;
+}
+#listview {
+    lines               : 5;
+    columns             : 7;
+    spacing             : 24;
+    scrollbar           : false;
+    background-color    : transparent;
+    margin              : 24 0 0;
+    fixed-columns       : true;
+}
+#element {
+    orientation         : vertical;
+    padding             : 8 24;
+    background-color    : transparent;
+    border-radius       : 16;
+}
+#element normal normal {
+}
+#element normal urgent {
+}
+#element normal active {
+    text-color          : @selected-bg-color;
+}
+#element selected normal {
+    background-color    : @selected-bg-color;
+    text-color          : @selected-fg-color;
+}
+#element selected urgent {
+}
+#element selected active {
+    background-color    : @selected-bg-color;
+    text-color          : @selected-fg-color;
+}
+#element-icon {
+    size                : 4em;
+    margin              : 0 16 0 0;
+}

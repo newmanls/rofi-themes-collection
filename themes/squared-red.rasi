@@ -1,0 +1,96 @@
+/*******************************************************************************
+ * ROFI SQUARED THEME USING THE MATERIAL DARKER PALETTE 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+configuration {
+    font            : "FiraCode Nerd Font Medium 12";
+    display-ssh     : "";
+    display-run     : "";
+    display-drun    : "";
+    display-window  : "";
+    display-combi   : "";
+
+}
+* {
+    bg-color            : #212121;
+    bg-light-color      : #404040;
+    fg-color            : #eeffff;
+    accent-color        : #f07178;
+    urgent-color        : #ffcb6b;
+
+    background-color    : @bg-color;
+    text-color          : @fg-color;
+
+    margin              : 0;
+}
+#window {
+    location            : center;
+    y-offset            : -160;
+    width               : 480;
+    background-color    : @bg-color;
+}
+#mainbox {
+    spacing             : 0;
+}
+#inputbar {
+    background-color    : @bg-light-color;
+    spacing             : 16; 
+    padding             : 8;
+}
+#prompt {
+    background-color    : transparent;
+    vertical-align      : 0;
+}
+#entry {
+    background-color    : transparent;
+}
+#case-indicator {
+    background-color    : transparent;
+}
+#message {
+    padding             : 0;
+}
+#textbox {
+    padding             : 8;
+    background-color    : @bg-light-color;
+}
+#listview {
+    lines               : 8;
+    columns             : 1;
+    fixed-height        : false;
+    spacing             : 0;
+    padding             : 4 0;
+}
+#element {
+    padding             : 8;
+    spacing             : 8;
+}
+#element normal normal {
+    text-color          : @fg-color;
+}
+#element normal urgent {
+    text-color          : @urgent-color;
+}
+#element normal active {
+    text-color          : @accent-color;
+}
+#element selected normal {
+    background-color    : @accent-color;
+    text-color          : @bg-color;
+}
+#element selected urgent {
+    background-color    : @urgent-color;
+    text-color          : @bg-color;
+}
+#element selected active {
+    background-color    : @accent-color;
+    text-color          : @bg-color;
+}
+#element-icon {
+    size                : 0.8em;
+}
+#mode-switcher {
+    padding             : 0;
+}

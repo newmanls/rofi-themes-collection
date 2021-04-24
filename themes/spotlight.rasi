@@ -1,0 +1,104 @@
+/*******************************************************************************
+ * MACOS SPOTLIGHT LIKE THEME FOR ROFI 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+configuration {
+    font            : "Montserrat 12";
+    display-ssh     : "";
+    display-run     : "";
+    display-drun    : "";
+    display-window  : "";
+    display-combi   : "";
+
+}
+* {
+    bg-color: #f5f5f5E6;
+    fg-color: #242424;
+    tooltip-fg-color: #363636;
+    selected-bg-color: #0860f2E6;
+    selected-fg-color: #ffffff;
+    insensitive-bg-color: #7e7e7e80;
+    insensitive-fg-color: #7e7e7e;
+
+    text-color          : @fg-color;
+}
+#window {
+    location            : center;
+    y-offset            : -200;
+    width               : 640;
+    border-radius       : 8;
+    background-color    : @bg-color;
+}
+#mainbox {
+    spacing             : 0;
+    background-color    : transparent;
+}
+#inputbar {
+    font                : "Montserrat 24";
+    background-color    : transparent;
+}
+#prompt {
+    text-color          : @tooltip-fg-color;
+    font                : inherit;
+    background-color    : inherit;
+    margin              : 16 16 24 20;
+}
+#entry {
+    font                : inherit;
+    background-color    : inherit;
+    placeholder         : "Search";
+    placeholder-color   : @insensitive-fg-color;
+    margin              : 11 0;
+}
+#case-indicator {
+    margin              : 8 8 8 24;
+    font                : inherit;
+    background-color    : inherit;
+}
+#message {
+    padding             : 0;
+    border              : 2 0 0;
+    border-color        : @insensitive-bg-color;
+    background-color    : @insensitive-bg-color;
+}
+#textbox {
+    padding             : 8 24;
+    background-color    : inherit;
+}
+#listview {
+    lines               : 10;
+    columns             : 1;
+    fixed-height        : false;
+    spacing             : 0;
+    scrollbar           : false;
+    background-color    : transparent;
+    border              : 2 0 0;
+    border-color        : @insensitive-bg-color;
+}
+#element {
+    padding             : 8 24;
+    background-color    : transparent;
+}
+#element normal normal {
+}
+#element normal urgent {
+}
+#element normal active {
+    text-color          : @selected-bg-color;
+}
+#element selected normal {
+    background-color    : @selected-bg-color;
+    text-color          : @selected-fg-color;
+}
+#element selected urgent {
+}
+#element selected active {
+    background-color    : @selected-bg-color;
+    text-color          : @selected-fg-color;
+}
+#element-icon {
+    size                : 1em;
+    margin              : 0 16 0 0;
+}
