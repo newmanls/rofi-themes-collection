@@ -11,7 +11,7 @@ a window, or options provided by an external script. You can learn more about Ro
 
 ## Screenshots
 
-- Launchpad
+### Launchpad
 ![launchpad](screenshot-launchpad.png)
 
 ### Nord
