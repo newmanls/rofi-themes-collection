@@ -12,25 +12,25 @@ a window, or options provided by an external script. You can learn more about Ro
 ## Screenshots
 
 ### Launchpad
-![launchpad](screenshot-launchpad.png)
+![launchpad](screenshots/screenshot-launchpad.png)
 
 ### Nord
-![nord](screenshot-nord.png)
+![nord](screenshots/screenshot-nord.png)
 
 ### Nord (oneline)
-![nord-oneline](screenshot-nord-oneline.png)
+![nord-oneline](screenshots/screenshot-nord-oneline.png)
 
 ### Nord (two lines)
-![nord-two-lines](screenshot-nord-two-lines.png)
+![nord-two-lines](screenshots/screenshot-nord-two-lines.png)
 
 ### Spotlight (light)
-![spotlight-light](screenshot-spotlight-light.png)
+![spotlight-light](screenshots/screenshot-spotlight-light.png)
 
 ### Spotlight (dark)
-![spotlight-dark](screenshot-spotlight-dark.png)
+![spotlight-dark](screenshots/screenshot-spotlight-dark.png)
 
 ### Squared (red)
-![squared-red](screenshot-squared-red.png)
+![squared-red](screenshots/screenshot-squared-red.png)
 
 ## Don't have rofi yet? Install it!
 
