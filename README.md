@@ -29,7 +29,10 @@ a window, or options provided by an external script. You can learn more about Ro
 ### Spotlight (dark)
 ![spotlight-dark](screenshots/screenshot-spotlight-dark.png)
 
-### Squared (red)
+### Squared Nord
+![squared-nord](screenshots/screenshot-squared-nord.png)
+
+### Squared Red
 ![squared-red](screenshots/screenshot-squared-red.png)
 
 ## Don't have rofi yet? Install it!
