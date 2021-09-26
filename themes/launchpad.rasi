@@ -4,93 +4,91 @@
  * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
  *******************************************************************************/
 
-configuration {
-    font            : "Montserrat 10";
-}
 * {
-    bg-color: #242424BF;
-    fg-color: #f5f5f5;
-    tooltip-fg-color: #363636;
-    selected-bg-color: #0860f2E6;
-    selected-fg-color: #ffffff;
-    insensitive-bg-color: #f5f5f520;
-    insensitive-fg-color: #f5f5f5;
+    font: "Montserrat 9";
 
-    text-color          : @fg-color;
+    bg0:  #24242480;
+    bg1:  #363636;
+    bg2:  #f5f5f520;
+    bg3:  #f5f5f540;
+    bg4:  #0860f2E6;
+
+    fg0:  #f5f5f5;
+    fg1:  #f5f5f580;
+
+    background-color: transparent;
+    text-color:       @fg0;
+    padding:          0px;
+    margin:           0px;
 }
-#window {
-    background-color    : @bg-color;
-    fullscreen          : true;
-    padding             : 32 136;
+
+window {
+  fullscreen: true;
+  padding: 1em;
+  background-color: @bg0;
 }
-#mainbox {
-    background-color    : transparent;
+
+mainbox {
+  padding:  8px;
 }
-#inputbar {
-    background-color    : @insensitive-bg-color;
-    border              : 2;
-    border-radius       : 4;
-    border-color        : @insensitive-bg-color;
-    padding             : 4 8;
-    margin              : 0 30%;
-    font                : "Montserrat 12";
+
+inputbar {
+  background-color: @bg2;
+
+  margin:   0px calc( 50% - 120px );
+  padding:  2px 4px;
+  spacing:  4px;
+
+  border:         1px;
+  border-radius:  2px;
+  border-color:   @bg3;
+
+  children: [icon-search,entry];
 }
-#prompt {
-    enabled             : false;
+
+prompt {
+  enabled:  false;
 }
-#entry {
-    font                : inherit;
-    background-color    : transparent;
-    placeholder         : "Search";
-    placeholder-color   : @insensitive-fg-color;
+
+icon-search {
+  expand:   false;
+  filename: "search";
+  vertical-align: 0.5;
 }
-#case-indicator {
-    font                : inherit;
-    background-color    : transparent;
+
+entry {
+  placeholder:        "Search";
+  placeholder-color:  @fg1;
 }
-#message {
-    padding             : 0;
-    border              : 2 0 0;
-    border-color        : @insensitive-bg-color;
-    background-color    : @insensitive-bg-color;
+
+listview {
+  margin:   48px calc( 50% - 560px );
+  spacing:  48px;
+  columns:  6;
+  fixed-columns: true;
 }
-#textbox {
-    padding             : 8 24;
-    background-color    : inherit;
+
+element, element-text, element-icon {
+  cursor: pointer;
 }
-#listview {
-    lines               : 5;
-    columns             : 7;
-    spacing             : 24;
-    scrollbar           : false;
-    background-color    : transparent;
-    margin              : 24 0 0;
-    fixed-columns       : true;
+
+element {
+  padding:      8px;
+  spacing:      4px;
+
+  orientation:    vertical;
+  border-radius:  16px;
 }
-#element {
-    orientation         : vertical;
-    padding             : 8 24;
-    background-color    : transparent;
-    border-radius       : 16;
+
+element selected {
+  background-color: @bg4;
 }
-#element normal normal {
+
+element-icon {
+  size: 4em;
+  horizontal-align: 0.5;
 }
-#element normal urgent {
-}
-#element normal active {
-    text-color          : @selected-bg-color;
-}
-#element selected normal {
-    background-color    : @selected-bg-color;
-    text-color          : @selected-fg-color;
-}
-#element selected urgent {
-}
-#element selected active {
-    background-color    : @selected-bg-color;
-    text-color          : @selected-fg-color;
-}
-#element-icon {
-    size                : 4em;
-    margin              : 0 16 0 0;
+
+element-text {
+  horizontal-align: 0.5;
 }

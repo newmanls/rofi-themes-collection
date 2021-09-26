@@ -1,12 +1,12 @@
 /*******************************************************************************
- * ROFI VERTICAL THEME USING THE NORD COLOR PALETTE 
+ * ROFI TWO LINES THEME USING THE NORD COLOR PALETTE 
  * User                 : LR-Tech               
  * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
  * Nord Project Repo    : https://github.com/arcticicestudio/nord
  *******************************************************************************/
 
 * {
-    font:   "IBM Plex Mono 12";
+    font:   "Fira Code 10";
 
     nord0:     #2e3440;
     nord1:     #3b4252;
@@ -39,17 +39,14 @@
 
 window {
     background-color:   @nord0;
-    border-color:       @accent-color;
 
-    location:   center;
-    width:      480px;
-    y-offset:   -160px;
-    border:     1px;
+    location:   north;
+    width:      100%;
 }
 
 inputbar {
-    padding:    8px 12px;
-    spacing:    12px;
+    padding:    2px 8px;
+    spacing:    8px;
     children:   [ prompt, entry ];
 }
 
@@ -62,15 +59,13 @@ prompt {
 }
 
 listview {
-    lines:      8;
-    columns:    1;
-
-    fixed-height:   false;
+    lines:      1;
+    columns:    4;
 }
 
 element {
-    padding:    8px;
-    spacing:    8px;
+    padding:    1px 8px;
+    spacing:    4px;
 }
 
 element normal urgent {

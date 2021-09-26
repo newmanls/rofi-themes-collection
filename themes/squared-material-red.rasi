@@ -4,93 +4,93 @@
  * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
  *******************************************************************************/
 
-configuration {
-    font            : "FiraCode Nerd Font Medium 12";
-    display-ssh     : "";
-    display-run     : "";
-    display-drun    : "";
-    display-window  : "";
-    display-combi   : "";
-
-}
 * {
-    bg-color            : #212121;
-    bg-light-color      : #404040;
-    fg-color            : #eeffff;
-    accent-color        : #f07178;
-    urgent-color        : #ffcb6b;
+    font:   "FiraCode Nerd Font Medium 12";
 
-    background-color    : @bg-color;
-    text-color          : @fg-color;
+    bg0:     #212121;
+    bg1:     #404040;
+    fg0:     #eeffff;
 
-    margin              : 0;
+    accent-color:     #f07178;
+    urgent-color:     #ffcb6b;
+
+    background-color:   transparent;
+    text-color:         @fg0;
+
+    margin:     0;
+    padding:    0;
+    spacing:    0;
 }
-#window {
-    location            : center;
-    y-offset            : -160;
-    width               : 480;
-    background-color    : @bg-color;
+
+window {
+    location:   center;
+    width:      480;
+    y-offset:   -160;
+
+    background-color:   @bg0;
 }
-#mainbox {
-    spacing             : 0;
+
+inputbar {
+    spacing:    8px; 
+    padding:    8px;
+
+    background-color:   @bg1;
 }
-#inputbar {
-    background-color    : @bg-light-color;
-    spacing             : 16; 
-    padding             : 8;
+
+prompt, entry, element-icon, element-text {
+    vertical-align: 0.5;
 }
-#prompt {
-    background-color    : transparent;
-    vertical-align      : 0;
+
+prompt {
+    text-color: @accent-color;
 }
-#entry {
-    background-color    : transparent;
+
+textbox {
+    padding:            8px;
+    background-color:   @bg1;
 }
-#case-indicator {
-    background-color    : transparent;
+
+listview {
+    padding:    4px 0;
+    lines:      8;
+    columns:    1;
+
+    fixed-height:   false;
 }
-#message {
-    padding             : 0;
+
+element {
+    padding:    8px;
+    spacing:    8px;
 }
-#textbox {
-    padding             : 8;
-    background-color    : @bg-light-color;
+
+element normal normal {
+    text-color: @fg0;
 }
-#listview {
-    lines               : 8;
-    columns             : 1;
-    fixed-height        : false;
-    spacing             : 0;
-    padding             : 4 0;
+
+element normal urgent {
+    text-color: @urgent-color;
 }
-#element {
-    padding             : 8;
-    spacing             : 8;
+
+element normal active {
+    text-color: @accent-color;
 }
-#element normal normal {
-    text-color          : @fg-color;
+
+element selected {
+    text-color: @bg0;
 }
-#element normal urgent {
-    text-color          : @urgent-color;
+
+element selected normal, element selected active {
+    background-color:   @accent-color;
 }
-#element normal active {
-    text-color          : @accent-color;
+
+element selected urgent {
+    background-color:   @urgent-color;
 }
-#element selected normal {
-    background-color    : @accent-color;
-    text-color          : @bg-color;
+
+element-icon {
+    size:   0.8em;
 }
-#element selected urgent {
-    background-color    : @urgent-color;
-    text-color          : @bg-color;
-}
-#element selected active {
-    background-color    : @accent-color;
-    text-color          : @bg-color;
-}
-#element-icon {
-    size                : 0.8em;
-}
-#mode-switcher {
-    padding             : 0;
+
+element-text {
+    text-color: inherit;
 }

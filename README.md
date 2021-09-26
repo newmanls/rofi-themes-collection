@@ -12,28 +12,41 @@ a window, or options provided by an external script. You can learn more about Ro
 ## Screenshots
 
 ### Launchpad
-![launchpad](screenshots/screenshot-launchpad.png)
+![launchpad](screenshots/screenshot_launchpad.png)
 
 ### Nord
-![nord](screenshots/screenshot-nord.png)
+![nord](screenshots/screenshot_nord.png)
 
 ### Nord (oneline)
-![nord-oneline](screenshots/screenshot-nord-oneline.png)
+![nord-oneline](screenshots/screenshot_nord-oneline.png)
 
 ### Nord (two lines)
-![nord-two-lines](screenshots/screenshot-nord-two-lines.png)
+![nord-twoLines](screenshots/screenshot_nord-twoLines.png)
+
+### Rounded
+![rounded-blue-dark](screenshots/screenshot_rounded-blue-dark)
+![rounded-gray-dark](screenshots/screenshot_rounded-gray-dark)
+![rounded-green-dark](screenshots/screenshot_rounded-green-dark)
+![rounded-orange-dark](screenshots/screenshot_rounded-orange-dark)
+![rounded-pink-dark](screenshots/screenshot_rounded-pink-dark)
+![rounded-purple-dark](screenshots/screenshot_rounded-purple-dark)
+![rounded-red-dark](screenshots/screenshot_rounded-red-dark)
+![rounded-yellow-dark](screenshots/screenshot_rounded-yellow-dark)
 
 ### Spotlight (light)
-![spotlight-light](screenshots/screenshot-spotlight-light.png)
+![spotlight](screenshots/screenshot_spotlight.png)
 
 ### Spotlight (dark)
-![spotlight-dark](screenshots/screenshot-spotlight-dark.png)
+![spotlight-dark](screenshots/screenshot_spotlight-dark.png)
+
+### Squared Everforest
+![squared-nord](screenshots/screenshot_squared-everforest.png)
 
 ### Squared Nord
-![squared-nord](screenshots/screenshot-squared-nord.png)
+![squared-nord](screenshots/screenshot_squared-nord.png)
 
-### Squared Red
-![squared-red](screenshots/screenshot-squared-red.png)
+### Squared Material Red
+![squared-material-red](screenshots/screenshot_squared-material-red.png)
 
 ## Don't have rofi yet? Install it!
 

@@ -5,14 +5,14 @@
  *******************************************************************************/
 
 * {
-    bg-color            : #212121F2;
-    fg-color            : #E6E6E6;
-    tooltip-fg-color    : #969696;
-    accent-bg-color     : #1A73E8F2;
-    accent-fg-color     : #FFFFFF;
-    insensitive-bg-color: #3D3D3D80;
-    insensitive-fg-color: #3D3D3D;
-    inputbar-bg-color   : #2A2A2A;
+    bg0:    #212121F2;
+    bg1:    #2A2A2A;
+    bg2:    #3D3D3D80;
+    bg3:    #1A73E8F2;
+    fg0:    #E6E6E6;
+    fg1:    #FFFFFF;
+    fg2:    #969696;
+    fg3:    #3D3D3D;
 }
 
 @import "rounded-common.rasi"

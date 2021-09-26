@@ -5,114 +5,102 @@
  * Nord Project Repo    : https://github.com/arcticicestudio/nord
  *******************************************************************************/
 
-configuration {
-    font            : "IBM Plex Mono 10";
-    display-ssh     : "";
-    display-run     : "";
-    display-drun    : "";
-    display-window  : "";
-    display-combi   : "";
-
-}
 * {
-    nord0   : #2e3440;
-    nord1   : #3b4252;
-    nord2   : #434c5e;
-    nord3   : #4c566a;
+    font:   "Fira Code 10";
 
-    nord4   : #d8dee9;
-    nord5   : #e5e9f0;
-    nord6   : #eceff4;
+    nord0:     #2e3440;
+    nord1:     #3b4252;
+    nord2:     #434c5e;
+    nord3:     #4c566a;
 
-    nord7   : #8fbcbb;
-    nord8   : #88c0d0;
-    nord9   : #81a1c1;
-    nord10  : #5e81ac;
-    nord11  : #bf616a;
+    nord4:     #d8dee9;
+    nord5:     #e5e9f0;
+    nord6:     #eceff4;
 
-    nord12  : #d08770;
-    nord13  : #ebcb8b;
-    nord14  : #a3be8c;
-    nord15  : #b48ead;
+    nord7:     #8fbcbb;
+    nord8:     #88c0d0;
+    nord9:     #81a1c1;
+    nord10:    #5e81ac;
+    nord11:    #bf616a;
 
-    background-color    : @nord1;
-    text-color          : @nord4;
+    nord12:    #d08770;
+    nord13:    #ebcb8b;
+    nord14:    #a3be8c;
+    nord15:    #b48ead;
+
+    background-color:   transparent;
+    text-color:         @nord4;
+    accent-color:       @nord8;
+
+    margin:     0px;
+    padding:    0px;
+    spacing:    0px;
 }
-#window {
-    location            : north;
-    width               : 100%;
-    background-color    : @nord0;
-    children            : [ mainbox,message ];
+
+window {
+    location:           north;
+    width:              100%;
+    background-color:   @nord0;
+    children:           [ mainbox,message ];
 }
-#mainbox {
-    spacing             : 0;
-    orientation         : horizontal;
-    children            : [ inputbar,listview ];
-    
+
+mainbox {
+    orientation:    horizontal;
+    children:       [ inputbar,listview ];
 }
-#inputbar {
-    background-color    : @nord0;
-    spacing             : 0;
-    width               : 25%;
+
+inputbar {
+    width:      25%;
+    padding:    1px 8px;
+    spacing:    8px;
+    children:   [ prompt, entry ];
 }
-#prompt {
-    padding             : 1 8 5;
-    background-color    : @nord0;
-    vertical-align      : 1;
+
+prompt, entry, element-text, element-icon {
+    vertical-align: 0.5;
 }
-#entry {
-    padding             : 0 0 4;
-    background-color    : @nord0;
-    vertical-align      : 1;
+
+prompt {
+    text-color: @accent-color;
 }
-#case-indicator {
-    background-color    : @nord0;
-    vertical-align      : 1;
+
+listview {
+    layout: horizontal;
 }
-#message {
-    padding             : 0;
+
+element {
+    padding:    1px 8px;
+    spacing:    4px;
 }
-#textbox {
-    padding             : 2;
-    background-color    : @nord8;
-    text-color          : @nord0;
+
+element normal urgent {
+    text-color: @nord13;
 }
-#listview {
-    padding             : 0;
-    columns             : 1;
-    fixed-height        : false;
-    spacing             : 0;
-    layout              : horizontal;
+
+element normal active {
+    text-color: @accent-color;
 }
-#element {
-    padding             : 3 8;
+
+element selected {
+    text-color: @nord0;
 }
-#element normal normal {
-    text-color          : @nord4;
+
+element selected normal {
+    background-color:   @accent-color;
 }
-#element normal urgent {
-    text-color          : @nord13;
+
+element selected urgent {
+    background-color:   @nord13;
 }
-#element normal active {
-    text-color          : @nord8;
+
+element selected active {
+    background-color:   @nord8;
 }
-#element selected normal {
-    background-color    : @nord8;
-    text-color          : @nord0;
+
+element-icon {
+    size:   0.75em;
 }
-#element selected urgent {
-    background-color    : @nord13;
-    text-color          : @nord0;
-}
-#element selected active {
-    background-color    : @nord8;
-    text-color          : @nord0;
-}
-#element-icon {
-    size                : 0.75em;
-    margin              : 0 2 0 0;
-}
-#mode-switcher {
-    padding             : 0;
-    border              : 0;
+
+element-text {
+    text-color: inherit;
 }
