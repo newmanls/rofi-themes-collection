@@ -24,14 +24,14 @@ a window, or options provided by an external script. You can learn more about Ro
 ![nord-twoLines](screenshots/screenshot_nord-twoLines.png)
 
 ### Rounded
-![rounded-blue-dark](screenshots/screenshot_rounded-blue-dark)
-![rounded-gray-dark](screenshots/screenshot_rounded-gray-dark)
-![rounded-green-dark](screenshots/screenshot_rounded-green-dark)
-![rounded-orange-dark](screenshots/screenshot_rounded-orange-dark)
-![rounded-pink-dark](screenshots/screenshot_rounded-pink-dark)
-![rounded-purple-dark](screenshots/screenshot_rounded-purple-dark)
-![rounded-red-dark](screenshots/screenshot_rounded-red-dark)
-![rounded-yellow-dark](screenshots/screenshot_rounded-yellow-dark)
+![rounded-blue-dark](screenshots/screenshot_rounded-blue-dark.png)
+![rounded-gray-dark](screenshots/screenshot_rounded-gray-dark.png)
+![rounded-green-dark](screenshots/screenshot_rounded-green-dark.png)
+![rounded-orange-dark](screenshots/screenshot_rounded-orange-dark.png)
+![rounded-pink-dark](screenshots/screenshot_rounded-pink-dark.png)
+![rounded-purple-dark](screenshots/screenshot_rounded-purple-dark.png)
+![rounded-red-dark](screenshots/screenshot_rounded-red-dark.png)
+![rounded-yellow-dark](screenshots/screenshot_rounded-yellow-dark.png)
 
 ### Spotlight (light)
 ![spotlight](screenshots/screenshot_spotlight.png)
