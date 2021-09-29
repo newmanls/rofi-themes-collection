@@ -32,6 +32,7 @@ a window, or options provided by an external script. You can learn more about Ro
 ![rounded-purple-dark](screenshots/screenshot_rounded-purple-dark.png)
 ![rounded-red-dark](screenshots/screenshot_rounded-red-dark.png)
 ![rounded-yellow-dark](screenshots/screenshot_rounded-yellow-dark.png)
+![rounded-nord-dark](screenshots/screenshot_rounded-nord-dark.png)
 
 ### Spotlight (light)
 ![spotlight](screenshots/screenshot_spotlight.png)
