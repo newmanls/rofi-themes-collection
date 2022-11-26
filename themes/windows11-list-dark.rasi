@@ -8,6 +8,7 @@
   fg0    : #ffffff;
   fg1    : #cecece;
   accent : #60cdff;
+  urgent : @accent;
 
   background-color : transparent;
   text-color       : @fg0;
