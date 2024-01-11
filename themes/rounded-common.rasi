@@ -19,6 +19,7 @@ window {
     location:       center;
     width:          480;
     border-radius:  24px;
+    height:         390px;
     
     background-color:   @bg0;
 }
