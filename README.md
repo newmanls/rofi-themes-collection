@@ -81,7 +81,7 @@ $ mkdir -p ~/.local/share/rofi/themes/
 $ cp themes/<your-selected-theme> ~/.local/share/rofi/themes/
 ```
 
-4. Run Rofi in `run` modi, then run `rofi-theme-selector`.
+4. Run Rofi in `run` mode, then run `rofi-theme-selector`.
 
 5. Search for your desired theme, press `enter` to preview, then `Alt+a` to accept the new theme.
 
