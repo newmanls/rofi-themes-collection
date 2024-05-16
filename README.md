@@ -29,18 +29,18 @@ a window, or options provided by an external script. You can learn more about Ro
 
 1. Clone this repository and change to its directory:
 ```
-$ git clone https://github.com/lr-tech/rofi-themes-collection.git
-$ cd rofi-themes-collection
+git clone https://github.com/lr-tech/rofi-themes-collection.git
+cd rofi-themes-collection
 ```
 
 2. If you don't have the directories needed for the install create them with:
 ```
-$ mkdir -p ~/.local/share/rofi/themes/
+mkdir -p ~/.local/share/rofi/themes/
 ```
 
 3. Copy your desired theme to `~/.local/share/rofi/themes` folder:
 ```
-$ cp themes/<your-selected-theme> ~/.local/share/rofi/themes/
+cp themes/<your-selected-theme> ~/.local/share/rofi/themes/
 ```
 
 4. Run Rofi in `run` mode, then run `rofi-theme-selector`.
