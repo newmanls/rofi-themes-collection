@@ -87,6 +87,10 @@ element normal active {
   text-color: @accent;
 }
 
+element alternate active {
+  text-color: @accent;
+}
+
 element selected {
   text-color       : @bg1;
   background-color : @accent;
