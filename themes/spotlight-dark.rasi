@@ -84,6 +84,10 @@ element normal active {
     text-color: @bg2;
 }
 
+element alternate active {
+    text-color: @bg2;
+}
+
 element selected normal, element selected active {
     background-color:   @bg2;
     text-color:         @fg1;

@@ -80,6 +80,10 @@ element normal active {
     text-color: @accent-color;
 }
 
+element alternate active {
+    text-color: @accent-color;
+}
+
 element selected {
     text-color: @nord0;
 }

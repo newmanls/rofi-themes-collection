@@ -90,6 +90,14 @@ element normal active {
   text-color: @accent;
 }
 
+element alternate active {
+  text-color: @accent;
+}
+
+element selected active {
+  text-color: @accent;
+}
+
 element selected {
   background-color: @bg3;
 }
