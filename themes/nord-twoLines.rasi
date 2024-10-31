@@ -1,9 +1,5 @@
-/*******************************************************************************
- * ROFI TWO LINES THEME USING THE NORD COLOR PALETTE 
- * User                 : LR-Tech               
- * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
- * Nord Project Repo    : https://github.com/arcticicestudio/nord
- *******************************************************************************/
+/* ROFI TWO LINES THEME USING THE NORD COLOR PALETTE */
+/* Author: Newman Sanchez (https://github.com/newmanls) */
 
 * {
     font:   "Fira Code 10";

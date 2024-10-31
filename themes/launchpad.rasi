@@ -1,8 +1,5 @@
-/*******************************************************************************
- * MACOS LAUNCHPAD LIKE THEME FOR ROFI 
- * User                 : LR-Tech               
- * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
- *******************************************************************************/
+/* MACOS LAUNCHPAD LIKE THEME FOR ROFI */
+/* Author: Newman Sanchez (https://github.com/newmanls) */
 
 * {
     font: "Montserrat 9";

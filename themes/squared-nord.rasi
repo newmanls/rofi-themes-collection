@@ -1,8 +1,5 @@
-/*******************************************************************************
- * ROFI SQUARED THEME USING THE NORD PALETTE 
- * User                 : LR-Tech               
- * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
- *******************************************************************************/
+/* ROFI SQUARED THEME USING THE NORD PALETTE  */
+/* Author: Newman Sanchez (https://github.com/newmanls) */
 
 * {
     font:   "FiraCode Nerd Font Medium 12";
@@ -30,7 +27,7 @@ window {
 }
 
 inputbar {
-    spacing:    8px; 
+    spacing:    8px;
     padding:    8px;
 
     background-color:   @bg1;
