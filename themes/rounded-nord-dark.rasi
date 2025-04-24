@@ -12,7 +12,7 @@
     fg3:    #4C566A;
 }
 
-@import "rounded-common.rasi"
+@import "template/rounded-template.rasi"
 
 element selected {
     text-color: @bg1;
