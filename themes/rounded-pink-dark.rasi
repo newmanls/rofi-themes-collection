@@ -12,4 +12,4 @@
     fg3:    #3D3D3D;
 }
 
-@import "rounded-common.rasi"
+@import "template/rounded-template.rasi"
