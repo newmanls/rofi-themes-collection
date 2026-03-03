@@ -15,7 +15,7 @@ a window, or options provided by an external script. You can learn more about Ro
 | --- | --- | --- |
 | ![rounded-dark](screenshots/rounded-dark.gif) | ![rounded-nord-dark](screenshots/rounded-nord-dark.png) | ![squared](screenshots/squared.gif) |
 | ![spotlight](screenshots/spotlight.gif) | ![launchpad](screenshots/launchpad.png) | ![simple-tokyonight](screenshots/simple-tokyonight.jpg) |
-| ![windows11-grid](screenshots/windows11_grid.jpg) | ![windows11-list](screenshots/windows11_list.jpg) | |
+| ![windows11-grid](screenshots/windows11_grid.jpg) | ![windows11-list](screenshots/windows11_list.jpg) | ![tokyonight-fullscreen-4k](screenshots/tokyonight-fullscreen-4k.png) |
 
 ## Don't have rofi yet? Install it!
 

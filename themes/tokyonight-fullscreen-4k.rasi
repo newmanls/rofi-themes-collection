@@ -1,0 +1,89 @@
+configuration {
+    font: "sans 28";
+    show-icons: true;
+    display-drun: "Search Applications";
+    drun-display-format: "{name}";
+}
+
+* {
+    bg:         #1a1b26;
+    bg-alt:     #24283b;
+    bg-select:  #364A82;
+    fg:         #c0caf5;
+    fg-dim:     #565f89;
+    accent:     #7aa2f7;
+
+    background-color: transparent;
+    text-color:       @fg;
+}
+
+window {
+    fullscreen:       true;
+    background-color: @bg;
+    padding:          0;
+}
+
+mainbox {
+    background-color: transparent;
+    children:         [ inputbar, listview ];
+    spacing:          40px;
+    padding:          200px 400px;
+}
+
+inputbar {
+    background-color: @bg-alt;
+    border-color:     @accent;
+    border:           0 0 3px 0;
+    padding:          30px 40px;
+    spacing:          20px;
+    children:         [ prompt, entry ];
+}
+
+prompt {
+    background-color: transparent;
+    text-color:       @accent;
+}
+
+entry {
+    background-color: transparent;
+    text-color:       @fg;
+    placeholder:      "Type to search...";
+    placeholder-color: @fg-dim;
+}
+
+listview {
+    background-color: transparent;
+    columns:          3;
+    lines:            4;
+    spacing:          20px;
+    scrollbar:        false;
+    layout:           vertical;
+}
+
+element {
+    background-color: @bg-alt;
+    padding:          30px 20px;
+    spacing:          20px;
+    border-radius:    12px;
+    orientation:      vertical;
+    children:         [ element-icon, element-text ];
+}
+
+element selected {
+    background-color: @bg-select;
+    border:           2px solid;
+    border-color:     @accent;
+}
+
+element-icon {
+    background-color: transparent;
+    size:             96px;
+    horizontal-align: 0.5;
+}
+
+element-text {
+    background-color: transparent;
+    text-color:       inherit;
+    horizontal-align: 0.5;
+    vertical-align:   0.5;
+}
